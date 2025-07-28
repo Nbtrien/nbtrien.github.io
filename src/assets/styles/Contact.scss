@@ -1,0 +1,160 @@
+.contact_wrapper svg {
+  font-size: 1.5em;
+  vertical-align: middle;
+  //   margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    // color: #050f0b;
+  }
+
+  //   button:hover {
+  //     background-color: #5000ca;
+  //     color: white;
+  //   }
+
+  fieldset {
+    background-color: white;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: "DomaineDispNar-Medium", sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button-icon:hover {
+  background-color: #16f2b3;
+  transform: scale(1.1);
+}
+
+.button-icon svg {
+  font-size: 1.25em;
+  vertical-align: middle;
+  color: #1f2937;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 65px;
+}
+
+.contact-social-wrapper {
+  margin-top: 36px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-form {
+  max-width: 500px;
+  background-color: #111827;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #1f2937;
+  border: 1px solid #334155;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #7f9cf5;
+}
+
+.error-text {
+  color: #f87171;
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.send-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #1f2937, #1f2937);
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.send-button:hover {
+  opacity: 0.9;
+}
+
+.icon {
+  margin-left: 8px;
+}
