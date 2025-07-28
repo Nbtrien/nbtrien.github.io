@@ -7,6 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import LocationOnOutlined from "@mui/icons-material/LocationOnOutlined";
+import { CalendarMonth } from "@mui/icons-material";
 
 function Contact() {
   const [name, setName] = useState<string>("");
@@ -97,7 +98,7 @@ function Contact() {
                 <div className="button-icon">
                   <LocalPhoneIcon />
                 </div>
-                <p>+84</p>
+                <p>0345678912</p>
               </div>
               <div className="contact-flex">
                 <div className="button-icon">

@@ -1,7 +1,6 @@
-import React from "react";
 import "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -13,33 +12,40 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Work Experience</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2024 - present"
+            date="05/2024 - present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title">FPT SOFTWARE</h3>
+            <h4 className="vertical-timeline-element-subtitle">
               Software Engineer
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">FPT Software</h4>
-            <p>Full-stack Web Development</p>
+            </h4>
+            <p>
+              Developed full-stack web applications for AI products using
+              ReactJS, Spring Boot, Node.js, PostgreSQL.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="7/2023 - 10/2023"
+            date="07/2023 - 10/2023"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title">BAP SOFTWARE</h3>
+            <h4 className="vertical-timeline-element-subtitle">
               Software Engineer Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">BAP Software</h4>
-            <p>Backend Development Intern</p>
+            </h4>
+            <p>
+              Collaborated with a team of developers to implement backend logic
+              using Java and Spring Boot, and worked with Jira, Git, and
+              PostgreSQL in an Agile environment.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -47,23 +53,15 @@ function Timeline() {
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">
-              Software Engineer Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">FPT Software</h4>
-            <p>Backend Development Intern</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2019 - 2024"
-            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Study</h3>
+            <h3 className="vertical-timeline-element-title">FPT SOFTWARE</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              VKU University
+              Java Developer Intern
             </h4>
-            <p>Automation, Data Governance, Statistical Analysis</p>
+            <p>
+              Participated in team-based backend projects as a Java Developer
+              Intern, gaining hands-on experience with Java, Spring Boot, and
+              MySQL under the mentorship of senior engineers.
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

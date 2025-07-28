@@ -1,5 +1,7 @@
-import React from "react";
-import project1 from "../assets/images/image.png";
+import projectAppMovie from "../assets/images/project-app-movie.png";
+import projectOrphangeAdmin from "../assets/images/project-orphanage-admin.png";
+import projectOrphangeWebsite from "../assets/images/project-orphanage-website.png";
+import projectWebMovie from "../assets/images/project-web-movie.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
@@ -13,7 +15,12 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={project1} className="zoom" alt="thumbnail" width="100%" />
+            <img
+              src={projectAppMovie}
+              className="zoom project-img"
+              alt="Movie App Android"
+              width="100%"
+            />
           </a>
           <a
             href="https://github.com/Nbtrien/movies-app-android"
@@ -22,6 +29,16 @@ function Project() {
           >
             <h2>Movie App Android</h2>
           </a>
+          <div className="btn-group">
+            <a
+              className="btn"
+              href="https://github.com/Nbtrien/movies-app-android"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div>
           <p>
             Movie App runs on android platform. This app allows users to browse
             through a wide selection of movies and filter them by various
@@ -30,51 +47,117 @@ function Project() {
             recommendations.
           </p>
         </div>
-        {/* <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div> */}
+        <div className="project">
+          <a
+            href="https://github.com/nbtrien-movie-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={projectWebMovie}
+              className="zoom project-img"
+              alt="Movie App ReactJS"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/nbtrien-movie-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Movie App ReactJS</h2>
+          </a>
+          <div className="btn-group">
+            <a
+              className="btn"
+              href="hhttps://github.com/nbtrien-movie-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div>
+          <p>
+            Movie Streaming app runs on web platform. This app allows users to
+            browse through a wide selection of movies and filter them by various
+            criteria such as popularity, genres, and release date. Users can
+            also view detailed information about each movie, reviews, and
+            recommendations.
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/orphanage-platform"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={projectOrphangeAdmin}
+              className="zoom project-img"
+              alt="Orphanage Management Admin ReactJS"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/orphanage-platform"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Orphanage Management Admin ReactJS</h2>
+          </a>
+          <div className="btn-group">
+            <a
+              className="btn"
+              href="https://github.com/orphanage-platform"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div>
+          <p>
+            This project is a web application built using ReactJS for the
+            management of an orphanage. It provides a user-friendly interface to
+            efficiently manage the orphanage's operations and data.
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/orphanage-platform/orphanage-website-reactjs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={projectOrphangeWebsite}
+              className="zoom project-img"
+              alt="Orphanage Website ReactJS"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/orphanage-platform/orphanage-website-reactjs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Orphanage Website ReactJS</h2>
+          </a>
+          <div className="btn-group">
+            <a className="btn">Demo</a>
+            <a
+              className="btn"
+              href="https://github.com/orphanage-platform/orphanage-website-reactjs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div>
+          <p>
+            This project is a web application built using ReactJS for an
+            orphanage. It provides a user-friendly interface for effective
+            interaction with the orphanage.
+          </p>
+        </div>
       </div>
     </div>
   );

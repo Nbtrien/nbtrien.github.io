@@ -1,11 +1,6 @@
-import React from "react";
+import { faDocker, faReact } from "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faDocker,
-  faPython,
-} from "@fortawesome/free-brands-svg-icons";
 import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
@@ -14,24 +9,13 @@ const labelsFirst = [
   "Spring",
   "NodeJS",
   "React",
-  "TypeScript",
   "JavaScript",
-  "SQL",
+  "MySQL",
   "PostgreSQL",
-  "Postman",
+  "Redis",
 ];
 
-const labelsSecond = ["Git", "Docker", "AWS", "Linux"];
-
-const labelsThird = [
-  "OpenAI",
-  "Groq",
-  "LangChain",
-  "Qdrant",
-  "Hugging Face",
-  "LlamaIndex",
-  "Streamlit",
-];
+const labelsSecond = ["Git", "Docker", "AWS", "Linux", "Postman"];
 
 function Expertise() {
   return (
@@ -43,10 +27,10 @@ function Expertise() {
             <FontAwesomeIcon icon={faReact} size="3x" />
             <h3>Full Stack Web Development</h3>
             <p>
-              I have built a diverse array of web applications from scratch
-              using modern technologies such as Spring and React. I have a
-              strong proficiency in the SDLC process and frontend + backend
-              development.
+              Experienced in building modern web applications using Spring Boot,
+              NodeJS, and React. Skilled across both frontend and backend,
+              following best practices in clean code, RESTful APIs, and
+              component-based design.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -58,11 +42,12 @@ function Expertise() {
 
           <div className="skill">
             <FontAwesomeIcon icon={faDocker} size="3x" />
-            <h3>DevOps & Automation</h3>
+            <h3>Tools & Deployment</h3>
             <p>
-              Once the application is built, I help clients set up DevOps
-              testing, CI/CD pipelines, and deployment automation to support the
-              successful Go-Live.
+              I work with Git for version control, Docker for containerizing
+              applications, and Postman to test and debug APIs. I also have
+              hands-on experience deploying to AWS and working in Linux
+              environments.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -71,23 +56,6 @@ function Expertise() {
               ))}
             </div>
           </div>
-
-          {/* <div className="skill">
-            <FontAwesomeIcon icon={faPython} size="3x" />
-            <h3>GenAI & LLM</h3>
-            <p>
-              Stay relevant in the market by leveraging the latest AI models in
-              your projects. I have professional experience building enterprise
-              grade GenAI-enabled solutions to empower intelligent decision
-              making.
-            </p>
-            <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
-              {labelsThird.map((label, index) => (
-                <Chip key={index} className="chip" label={label} />
-              ))}
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
