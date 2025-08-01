@@ -58,7 +58,7 @@ function Contact() {
           <div>
             <h1>Contact Me</h1>
           </div>
-          <div className="d-flex">
+          <div className="contact-wrapper">
             <div className="contact-form">
               <p className="contact-info">
                 If you have any questions or concerns, please don't hesitate to

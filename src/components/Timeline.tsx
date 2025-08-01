@@ -28,7 +28,7 @@ function Timeline() {
             </h4>
             <p>
               Developed full-stack web applications for AI products using
-              ReactJS, Spring Boot, Node.js, PostgreSQL.
+              ReactJS, Spring Boot, NodeJS, PostgreSQL.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

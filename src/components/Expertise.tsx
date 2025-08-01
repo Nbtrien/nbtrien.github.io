@@ -7,15 +7,16 @@ import "../assets/styles/Expertise.scss";
 const labelsFirst = [
   "Java",
   "Spring",
-  "NodeJS",
-  "React",
   "JavaScript",
+  "NodeJS",
+  "ReactJS",
+  "ExpressJS",
   "MySQL",
   "PostgreSQL",
   "Redis",
 ];
 
-const labelsSecond = ["Git", "Docker", "AWS", "Linux", "Postman"];
+const labelsSecond = ["Git", "Docker", "AWS", "Linux", "Postman", "Nginx"];
 
 function Expertise() {
   return (
@@ -28,7 +29,7 @@ function Expertise() {
             <h3>Full Stack Web Development</h3>
             <p>
               Experienced in building modern web applications using Spring Boot,
-              NodeJS, and React. Skilled across both frontend and backend,
+              NodeJS, and ReactJS. Skilled across both frontend and backend,
               following best practices in clean code, RESTful APIs, and
               component-based design.
             </p>

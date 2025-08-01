@@ -145,6 +145,59 @@ button {
       0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
+  .btn-resume {
+    .btn {
+      box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    }
+    .btn:hover {
+      background-color: #f9fafb;
+      border-color: #94a3b8;
+      box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .button-icon {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .project {
+    .image-wrapper {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .btn-group {
+      .btn {
+        color: #111;
+        background-color: #f9fafb;
+        border: 1px solid #cbd5e1;
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        cursor: pointer;
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+          0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+          0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+      }
+
+      .btn:hover {
+        border-color: #94a3b8;
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+          0px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  .contact-form {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+
   .vertical-timeline::before {
     background-color: rgba(0, 0, 0, 0.08);
   }
@@ -168,9 +221,6 @@ button {
     color: #0d1116;
   }
 
-  .contact-form {
-    background-color: transparent;
-  }
   .send-button {
     background: none;
     background-color: transparent;
@@ -180,6 +230,7 @@ button {
   textarea {
     background-color: transparent;
     border: 1px solid #334155;
+    color: #0d1116;
   }
 }
 
