@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.73f76c5e.css",
-    "main.js": "/static/js/main.1a63952d.js",
+    "main.css": "/static/css/main.c6513954.css",
+    "main.js": "/static/js/main.b2e368a5.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/project-orphanage-website.png": "/static/media/project-orphanage-website.f5dbbc6050c8018de31f.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
@@ -11,12 +11,12 @@
     "static/media/project-app-movie.png": "/static/media/project-app-movie.bd0b1ea6892b0342bc1c.png",
     "static/media/project-orphanage-admin.png": "/static/media/project-orphanage-admin.24822653af7e373a65a3.png",
     "index.html": "/index.html",
-    "main.73f76c5e.css.map": "/static/css/main.73f76c5e.css.map",
-    "main.1a63952d.js.map": "/static/js/main.1a63952d.js.map",
+    "main.c6513954.css.map": "/static/css/main.c6513954.css.map",
+    "main.b2e368a5.js.map": "/static/js/main.b2e368a5.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73f76c5e.css",
-    "static/js/main.1a63952d.js"
+    "static/css/main.c6513954.css",
+    "static/js/main.b2e368a5.js"
   ]
 }
