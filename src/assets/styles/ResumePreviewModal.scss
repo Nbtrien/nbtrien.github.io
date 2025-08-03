@@ -26,7 +26,6 @@
     right: 0px;
     background: none;
     border: none;
-    font-size: 24px;
     color: #444;
     cursor: pointer;
     z-index: 10;
@@ -34,6 +33,26 @@
 
     &:hover {
       color: #000;
+    }
+  }
+
+  .resume-download-btn {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #444;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #000;
+    }
+
+    &:disabled {
+      cursor: unset;
     }
   }
 }

@@ -9,6 +9,15 @@ function Main() {
   const fileUrl =
     "https://trnb-bucket.s3.us-east-1.amazonaws.com/Nguyen-Ba-Trien-CV-SE.pdf";
 
+  const handleOpenResume = () => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.open(fileUrl, "_blank");
+    } else {
+      setOpen(true);
+    }
+  };
+
   return (
     <div className="container" id="home">
       <div className="about-section">
@@ -38,7 +47,7 @@ function Main() {
           <h1>Nguyen Ba Trien</h1>
           <p>Software Engineer</p>
           <div className="btn-resume">
-            <button className="btn" onClick={() => setOpen(true)}>
+            <button className="btn" onClick={handleOpenResume}>
               Resume
             </button>
           </div>
