@@ -15,11 +15,11 @@
   text-align: left;
 }
 
-.project h2:hover {
-  text-decoration: underline;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out;
-}
+// .project h2:hover {
+//   text-decoration: underline;
+//   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+//     border-color 0.15s ease-in-out;
+// }
 
 .zoom {
   border-radius: 5px;
@@ -85,9 +85,9 @@
     transition: transform 0.2s;
   }
 
-  .image-wrapper:hover {
-    transform: scale(1.05);
-  }
+  // .image-wrapper:hover {
+  //   transform: scale(1.05);
+  // }
 
   .project-img {
     box-sizing: border-box;

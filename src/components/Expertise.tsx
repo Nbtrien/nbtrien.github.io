@@ -6,17 +6,26 @@ import "../assets/styles/Expertise.scss";
 
 const labelsFirst = [
   "Java",
-  "Spring",
+  "Spring Boot",
   "JavaScript",
-  "NodeJS",
-  "ReactJS",
-  "ExpressJS",
+  "TypeScript",
+  "Node.js",
+  "React.js",
+  "NestJS",
   "MySQL",
   "PostgreSQL",
   "Redis",
 ];
 
-const labelsSecond = ["Git", "Docker", "AWS", "Linux", "Postman", "Nginx"];
+const labelsSecond = [
+  "Git",
+  "Docker",
+  "Kubernetes",
+  "AWS",
+  "Linux",
+  "Postman",
+  "Nginx",
+];
 
 function Expertise() {
   return (
@@ -30,8 +39,8 @@ function Expertise() {
             <p>
               Experienced in building modern web applications using Spring Boot,
               NodeJS, and ReactJS. Skilled across both frontend and backend,
-              following best practices in clean code, RESTful APIs, and
-              component-based design.
+              following best practices in clean code, RESTful APIs, WebSocket
+              and component-based design.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>

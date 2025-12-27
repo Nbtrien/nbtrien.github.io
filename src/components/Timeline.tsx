@@ -18,7 +18,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="05/2024 - present"
+            date="2024 - present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -27,8 +27,10 @@ function Timeline() {
               Software Engineer
             </h4>
             <p>
-              Developed full-stack web applications for AI products using
-              ReactJS, Spring Boot, NodeJS, PostgreSQL.
+              Designed and developed full-stack web applications for AI
+              products, focusing on performance and scalability with React.js,
+              Spring Boot, Node.js, PostgreSQL, Redis, and cloud deployment on
+              AWS.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
